@@ -200,6 +200,7 @@ color: var(--title-text-color);
 /* HW3 */
 margin-bottom: 10px;
 }
+
 .principles {display: flex;  gap:30px ;}
 .principles-item {width: 270px;}   
 
