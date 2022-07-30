@@ -325,7 +325,7 @@ letter-spacing: 0.03em;
 
 /* -------------gallery------------- */
 .gallery-list{display: flex; gap:30px}
-.container
+.container > .what-we-do{padding-bottom: 0px;}
 
 /* ---------------------team --------------------------*/
 
