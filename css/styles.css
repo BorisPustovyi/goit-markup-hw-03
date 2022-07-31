@@ -34,7 +34,7 @@ img{display: block; max-width: 100%; height: auto;}
     text-decoration: none;
 }
 .container {
-    width: 100%;
+
     max-width: 1200px;
     margin-right:auto;
     margin-left:auto;
@@ -67,17 +67,19 @@ img{display: block; max-width: 100%; height: auto;}
 
     padding-top: 23px;
     padding-bottom: 25px;
-    border: 1px solid var(--header-border-color);
+    border-bottom: 1px solid var(--header-border-color);
 
 }
-.header-nav{}
+.header-nav{    
+    display: flex;   align-items: center;
+}
 
 .header .container{
     display: flex;
     align-items: center;
 }
 
-.header-list {display: flex;  gap: 50px;}
+.header-list {display:flex; gap:50px;}
 
 .nav-adress{
     margin-left: auto;
@@ -135,8 +137,7 @@ padding-bottom: 200px;
 }
 .hero > .container {
 
-padding-left: 237px;
-padding-right:237px ;
+
 }
 
 
@@ -152,6 +153,8 @@ color: var(--wighte-color);
 max-width: 100%;
 width: 696px;
 margin-bottom: 30px;
+margin-left: auto;
+margin-right: auto;
 }
 
 .hero-button
@@ -204,6 +207,8 @@ margin-bottom: 10px;
 .principles {display: flex;  gap:30px ;}
 .principles-item {width: 270px;}   
 
+.section.our-principles{padding-bottom: 0px; }
+
 .after-title{
     font-size: 14px;
     line-height: 1.17;
@@ -230,9 +235,10 @@ line-height: 19px;
     
 }
 
-.footer-logo{color:var(--wighte-color);
+.footer-logo{
+    color:var(--wighte-color);
     margin-right: 0px;
-    
+    margin-bottom: 20px;
 }
 
 .f-logo{
@@ -240,14 +246,14 @@ line-height: 19px;
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 1,19;
+    line-height: 1.19;
     letter-spacing: 0.03em;
     text-decoration: none;
     margin-bottom: 20px;
-    
+
 }
 
-.contacts{padding-top: 20px; }
+.contacts{}
 
 .adress-item {
 font-style:normal;
@@ -321,11 +327,15 @@ letter-spacing: 0.03em;
     padding-right:24px;
     padding-bottom:20px ;
     padding-left:24px ;
+    border-left: 1px solid var(--card-border-color);
+    border-right: 1px solid var(--card-border-color);
+    border-bottom:1px solid var(--card-border-color);
+
 }
 
 /* -------------gallery------------- */
 .gallery-list{display: flex; gap:30px}
-.container > .what-we-do{padding-bottom: 0px;}
+
 
 /* ---------------------team --------------------------*/
 
